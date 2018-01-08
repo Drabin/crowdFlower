@@ -12,6 +12,7 @@ app.set('port', 3000);
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(`${__dirname} /../client/public/`, 'index.html'));
 });
+
 // bind and listen to connections on specified port
 app.listen(app.get('port'), () => {
   console.log(`Express server started on port ${app.get('port')}`);

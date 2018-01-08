@@ -35,7 +35,6 @@ export function loginUser({ email, password }) {
 }
 
 export function logoutUser() {
-  console.log('hey');
   localStorage.removeItem('token');
 
   return { type: UNAUTH_USER };

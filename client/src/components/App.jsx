@@ -1,5 +1,4 @@
-import React, { PropTypes } from 'react';
-import Navbar from './Navbar.jsx';
+import React from 'react';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -12,13 +11,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
-         {this.props.children}
+      hello
       </div>
     );
   }
 }
 
-App.propTypes = {
-  children: PropTypes.object,
-};
