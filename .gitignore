@@ -14,7 +14,7 @@ server/db/seedData/seed.json
 
 # Webpack
 client/public/webpack*
-client/public/*.hot*
+
 
 # Environment Configuration
 server/config/dev.env
